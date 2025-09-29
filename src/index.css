@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    font-size: 16px;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #d9f1e0;
+  }
+}
+   
+   /* Overlay untuk readability teks */
+   main {
+     
+     backdrop-filter: blur(5px); /* Blur efek modern */
+   }
+   
